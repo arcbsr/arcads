@@ -4,8 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import arcmonitize.Settings;
-import arcmonitize.ads.AdControllPanel;
+import arcmonitizeads.ads.AdControllPanel;
 
 public class MainActivity extends AppCompatActivity {
     @Override

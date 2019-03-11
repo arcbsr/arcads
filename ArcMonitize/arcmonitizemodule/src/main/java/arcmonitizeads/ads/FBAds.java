@@ -1,4 +1,4 @@
-package arcmonitize.ads;
+package arcmonitizeads.ads;
 
 import android.app.Activity;
 import android.view.View;

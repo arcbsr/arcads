@@ -1,4 +1,4 @@
-package arcmonitize.ads;
+package arcmonitizeads.ads;
 
 
 import android.app.Activity;
@@ -6,10 +6,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.LinearLayout;
 
-import arcmonitize.ArcPrefs;
-import arcmonitize.Settings;
-import arcmonitize.VLog;
-import arcmonitize.analytic.AnalyticControllerPanel;
+import arcmonitizeads.ArcPrefs;
+import arcmonitizeads.Settings;
+import arcmonitizeads.VLog;
+import arcmonitizeads.analytic.AnalyticControllerPanel;
 
 
 public class AdControllPanel {

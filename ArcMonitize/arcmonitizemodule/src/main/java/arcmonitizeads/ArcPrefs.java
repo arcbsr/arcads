@@ -1,4 +1,4 @@
-package arcmonitize;
+package arcmonitizeads;
 
 import android.content.Context;
 import android.content.SharedPreferences;

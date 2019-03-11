@@ -1,4 +1,4 @@
-package arcmonitize.ads;
+package arcmonitizeads.ads;
 
 import android.app.Activity;
 import android.view.View;
@@ -16,8 +16,8 @@ import com.google.android.gms.ads.reward.RewardItem;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
 import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 
-import arcmonitize.Settings;
-import arcmonitize.analytic.AnalyticControllerPanel;
+import arcmonitizeads.Settings;
+import arcmonitizeads.analytic.AnalyticControllerPanel;
 
 public class Admob {
     private static final boolean ENABLE_REWARD = true;

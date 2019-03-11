@@ -1,4 +1,4 @@
-package arcmonitize.analytic;
+package arcmonitizeads.analytic;
 
 import android.content.Context;
 
