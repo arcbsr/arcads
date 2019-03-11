@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.arcadio.arcmonitizemodule.BuildConfig;
-import com.arcadio.arcmonitizemodule.R;
+import com.arcadio.arcmonitizeadsmodule.BuildConfig;
+import com.arcadio.arcmonitizeadsmodule.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;

@@ -2,7 +2,7 @@ package arcmonitizeads.ads;
 
 import android.app.Activity;
 
-import com.arcadio.arcmonitizemodule.R;
+import com.arcadio.arcmonitizeadsmodule.R;
 import com.startapp.android.publish.adsCommon.Ad;
 import com.startapp.android.publish.adsCommon.StartAppAd;
 import com.startapp.android.publish.adsCommon.StartAppSDK;

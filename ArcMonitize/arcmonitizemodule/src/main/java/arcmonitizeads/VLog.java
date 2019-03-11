@@ -2,7 +2,7 @@ package arcmonitizeads;
 
 import android.util.Log;
 
-import com.arcadio.arcmonitizemodule.BuildConfig;
+import com.arcadio.arcmonitizeadsmodule.BuildConfig;
 
 
 public class VLog {

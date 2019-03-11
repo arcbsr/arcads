@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.arcadio.arcmonitizemodule.R;
+import com.arcadio.arcmonitizeadsmodule.R;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdSettings;
