@@ -37,6 +37,7 @@ public class AdControllPanel {
     public AdControllPanel(Activity activity) {
         adControllPanel(activity, false);
     }
+
     public AdControllPanel(Activity activity, boolean isRemoved) {
         adControllPanel(activity, isRemoved);
     }
@@ -124,6 +125,17 @@ public class AdControllPanel {
 
 
     public void showOnAdLoadIfReward(final AdCloseListener adListener, final boolean isloadAgain, boolean shouldShow) {
+        if (admob != null && admob.isInstertialLoaded()) {
+            admob.showOnAdLoad(adListener, isloadAgain, shouldShow);
+        } else if (fbAds != null && fbAds.isLoaded()) {
+            fbAds.showOnInterstitialAdLoad(adListener, isloadAgain, shouldShow);
+        } else {
+            if (adListener != null)
+                adListener.onAdClosed(false);
+        }
+    }
+
+    public void showOnlyReward(final AdCloseListener adListener, final boolean isloadAgain, boolean shouldShow) {
         if (admob != null && admob.isLoadedReward()) {
             admob.showRewardVideoAds(adListener, isloadAgain, shouldShow);
         } else if (admob != null && admob.isInstertialLoaded()) {

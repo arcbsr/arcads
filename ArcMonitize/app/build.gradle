@@ -6,8 +6,8 @@ android {
         applicationId "com.arcadio.arcmonitizem"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 111
-        versionName "1.1.1"
+        versionCode 114
+        versionName "1.1.4"
     }
     buildTypes {
         release {
